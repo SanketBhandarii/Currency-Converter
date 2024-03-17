@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="wrapper">
+      <div class="container">
+        <h1>Currency <span>Converter</span></h1>
+        <div class="select-container">
+          <select class="currency"></select>
+          <div><i class="fa-solid fa-caret-down"></i></div>
+          <select class="currency"></select>
+          <div><i class="fa-solid fa-caret-down"></i></div>
+        </div>
+        <input type="text" id="input" placeholder="Enter amount" /><br />
+        <input type="text" id="output" disabled />
+        <br />
+        <button id="convert">Convert</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
